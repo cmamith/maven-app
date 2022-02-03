@@ -19,7 +19,6 @@ pipeline {
                sh  './jenkins/test/mvn.sh mvn test'
             }
 
-            }
         }
         stage('Push') {
             steps {
